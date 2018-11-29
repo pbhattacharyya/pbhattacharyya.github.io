@@ -161,7 +161,7 @@ var startingData = {
   },
   options: {
     animation: {
-      duration: 100 }
+      duration: 90 }
   ,legend: {
       display: false,
   },
@@ -191,7 +191,7 @@ var myLineChart = new Chart(ctx, startingData);
 
   // old code  
     $( document ).click(function() {
-      changePhoto();
+      setTimeout(changePhoto, 100);
       console.log("click!");
     });
 
@@ -205,7 +205,7 @@ var myLineChart = new Chart(ctx, startingData);
     let touchendX = 0;
     let touchendY = 0;
 
-    const gestureZone = document.getElementsByClassName('container-fluid');
+    const gestureZone = document.getElementById('wholearea');
 
     gestureZone.addEventListener('touchstart', function(event) {
         touchstartX = event.changedTouches[0].screenX;
@@ -220,29 +220,25 @@ var myLineChart = new Chart(ctx, startingData);
 
     function handleGesture() {
         if (touchendX <= touchstartX) {
-          changePhoto();
+          setTimeout(changePhoto, 100);
           console.log('Swiped left');
-        }
-        
-        if (touchendX >= touchstartX) {
-          changePhoto();
-          console.log('Swiped right');
-        }
-        
-        if (touchendY <= touchstartY) {
-          changePhoto();
-          console.log('Swiped up');
-        }
-        
-        if (touchendY >= touchstartY) {
-          changePhoto();
-          console.log('Swiped down');
-        }
-        
-        if (touchendY === touchstartY) {
-          changePhoto();
-          console.log('Tap');
-        }
+        } else {
+            if (touchendX >= touchstartX) {
+            setTimeout(changePhoto, 100);
+            console.log('Swiped right');
+          } else {
+            if (touchendY <= touchstartY) {
+              setTimeout(changePhoto, 100);
+              console.log('Swiped up');
+            } else {
+              if (touchendY >= touchstartY) {
+                setTimeout(changePhoto, 100);
+                console.log('Swiped down');
+              }
+            }
+
+          }
+      }
     }
 
     function changePhoto() {
