@@ -10,7 +10,7 @@
 
   </head>
   <body>
-        <div class="container-fluid" style="height:100vh">
+        <div class="container-fluid" style="height:100vh; padding:0px">
            
                 <div class="card-area gallery js-flickity">
                         <div id="card-1" class="gallery-cell">
@@ -18,9 +18,9 @@
                                         <h1 class="box-heading">16 people</h1>
                                         <h2 class="box-subheading">are talking about</h1>
                                         <div class="flex-container-idea">
-                                                <div style="background-color:#DB295E">Love</div>
-                                                <div style="background-color:#3B945F">Doves</div>
-                                                <div style="background-color:#5224D1">Pine trees</div>
+                                                <div class="idea" style="background-color:#DB295E">Love</div>
+                                                <div class="idea" style="background-color:#3B945F">Doves</div>
+                                                <div class="idea" style="background-color:#5224D1">Pine trees</div>
                                         </div>
                                         <div class="flex-container-quotes">
                                                 <div>
@@ -55,10 +55,10 @@
                                         <h1 class="box-heading">32 people</h1>
                                         <h2 class="box-subheading">are talking about</h1>
                                         <div class="flex-container-idea">
-                                                <div style="background-color:#FAD12F">Breathe</div>
-                                                <div style="background-color:#1313A1">America</div>
-                                                <div style="background-color:#F0712E">Sun</div>
-                                                <div style="background-color:#25ABDB">Praise</div>
+                                                <div class="idea" style="background-color:#FAD12F">Breathe</div>
+                                                <div class="idea" style="background-color:#1313A1">America</div>
+                                                <div class="idea" style="background-color:#F0712E">Sun</div>
+                                                <div class="idea" style="background-color:#25ABDB">Praise</div>
                                         </div>
                                         <div class="flex-container-quotes">
                                                 <div>
@@ -94,9 +94,9 @@
                                                 <h1 class="box-heading">6 people</h1>
                                                 <h2 class="box-subheading">are talking about</h1>
                                                 <div class="flex-container-idea">
-                                                        <div style="background-color:#B50C56">Ageing</div>
-                                                        <div style="background-color:#3B945F">Truth</div>
-                                                        <div style="background-color:#2767E6">San Francisco</div>
+                                                        <div class="idea" style="background-color:#B50C56">Ageing</div>
+                                                        <div class="idea" style="background-color:#3B945F">Truth</div>
+                                                        <div class="idea" style="background-color:#2767E6">San Francisco</div>
                                                 </div>
                                                 <div class="flex-container-quotes">
                                                         <div>
@@ -130,7 +130,8 @@
                                 </div>
                 </div>
                 <div class="visualization-area">
-                        <img id="viz" src="images/card-1-image.svg">
+                        <canvas id="viz" height="300"></canvas>
+                        <!-- <img id="viz" src="images/card-1-image.svg"> -->
                 </div> 
     
         </div>
@@ -138,9 +139,12 @@
         <footer>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
-            <script src="./main.js"></script>
-            <script src="./flickity.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script>
+            <script src="./utils.js"></script>
+            <script src="./main.js"></script>
+            <script src="./flickity.js"></script>
         </footer>
 </html>
