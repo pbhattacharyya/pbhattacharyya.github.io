@@ -172,8 +172,13 @@ var startingData = {
   }
   ,scales: {
     yAxes: [{
-      display: false
-    }],
+      display: false,
+
+      ticks: {
+        min: -1,
+      max: 11
+    }
+   }],
     xAxes: [{
       display: false
     }],
