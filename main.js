@@ -195,10 +195,55 @@ var myLineChart = new Chart(ctx, startingData);
       console.log("click!");
     });
 
-    $(document ).on("tap",function(){
-      changePhoto();
-      console.log("click!");
-    });
+    // $(document ).on("tap",function(){
+    //   changePhoto();
+    //   console.log("click!");
+    // });
+
+    let touchstartX = 0;
+    let touchstartY = 0;
+    let touchendX = 0;
+    let touchendY = 0;
+
+    const gestureZone = document.getElementsByClassName('container-fluid');
+
+    gestureZone.addEventListener('touchstart', function(event) {
+        touchstartX = event.changedTouches[0].screenX;
+        touchstartY = event.changedTouches[0].screenY;
+    }, false);
+
+    gestureZone.addEventListener('touchend', function(event) {
+        touchendX = event.changedTouches[0].screenX;
+        touchendY = event.changedTouches[0].screenY;
+        handleGesture();
+    }, false); 
+
+    function handleGesture() {
+        if (touchendX <= touchstartX) {
+          changePhoto();
+          console.log('Swiped left');
+        }
+        
+        if (touchendX >= touchstartX) {
+          changePhoto();
+          console.log('Swiped right');
+        }
+        
+        if (touchendY <= touchstartY) {
+          changePhoto();
+          console.log('Swiped up');
+        }
+        
+        if (touchendY >= touchstartY) {
+          changePhoto();
+          console.log('Swiped down');
+        }
+        
+        if (touchendY === touchstartY) {
+          changePhoto();
+          console.log('Tap');
+        }
+    }
 
     function changePhoto() {
 
