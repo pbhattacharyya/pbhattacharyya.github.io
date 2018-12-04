@@ -509,7 +509,7 @@ h1.box-heading {
     color: #2B2D42;	
     font-family: 'Tiempos Headline', serif;
     text-align: center;
-    font-size: 4em;	
+    font-size: 5em;	
     font-weight: 600;	
 }
 
@@ -517,11 +517,11 @@ h2.box-subheading {
   margin: auto;
   padding: 10px;
   color: #2B2D42;	
-  opacity: 0.65;
+  opacity: 0.6;
   font-family: 'Tiempos Headline', serif;
   text-align: center;
-  font-size: 1.5em;	
-  font-weight: 600;
+  font-size: 2em;	
+  font-weight: 500;
 }
 
 
@@ -540,6 +540,7 @@ h2.box-subheading {
   background-color: coral;
   color: #ffffff;
   font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -555,9 +556,10 @@ h2.box-subheading {
 }
 
 .flex-container-quotes > div {
-  color:rgba(43, 45, 66, 0.3);
-  font-family: 'Lato', sans-serif;
-  font-size: 1.4em;
+  color:rgba(43, 45, 66, 0.5);
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 1.8em;
   flex: 1;
   margin: 1em;
   margin-bottom: 1.5em;

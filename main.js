@@ -15,145 +15,145 @@ var startingData = {
         label: "Love",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "#DB295E", borderWidth: 3, 
+        borderColor: "#DB295E", borderWidth: 2, 
       },
       {
         label: "Doves",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "#3B945F", borderWidth: 3, 
+        borderColor: "#3B945F", borderWidth: 2, 
       },
       {
         label: "Pine trees",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "#5224D1", borderWidth: 3, 
+        borderColor: "#5224D1", borderWidth: 2, 
       },
       {
         label: "Breathe",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "America",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "Sun",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1,
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2,
       },
       {
         label: "Praise",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "Ageing",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "Truth",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "San Francisco",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "Breathe",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "America",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "Sun",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1,
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2,
       },
       {
         label: "Praise",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "Ageing",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "Truth",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "San Francisco",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "Breathe",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "America",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "Sun",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1,
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2,
       },
       {
         label: "Praise",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "Ageing",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "Truth",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       {
         label: "San Francisco",
         data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
         fill: false,
-        borderColor: "rgba(43,45,66,0.15)", borderWidth: 1, 
+        borderColor: "rgba(43,45,66,0.06)", borderWidth: 2, 
       },
       
 
@@ -251,19 +251,60 @@ var myLineChart = new Chart(ctx, startingData);
       if (current === "card-1")
       {
         console.log("test1");
-        updateChart(["#DB295E", "#3B945F", "#5224D1"])
+        updateChart(["#E62C63", "#3B945F", "#5224D1", "rgba(43,45,66,0.06)"])
       };
       if (current === "card-2")
       {
         console.log("test2");
-        updateChart(["#FAD12F", "#1313A1", "#F0712E", "#25ABDB"])
+        updateChart(["#ffb300", "#1313A1", "#F0712E", "#25ABDB"])
       };
       if (current === "card-3")
       {
         console.log("test3");
-        updateChart(["#B50C56", "#3B945F", "#5224D1"])
+        updateChart(["#e53935", "#4D1FF1", "rgba(43,45,66,0.06)", "rgba(43,45,66,0.06)"])
+      };
+      if (current === "card-4")
+      {
+        console.log("test4");
+        updateChart(["#039459", "#1313A1", "rgba(43,45,66,0.06)", "rgba(43,45,66,0.06)"])
+      };
+      if (current === "card-5")
+      {
+        console.log("test5");
+        updateChart(["#4D1FF1", "#DB295E", "rgba(43,45,66,0.06)", "rgba(43,45,66,0.06)"])
       } 
       
+      if (current === "card-6")
+      {
+        console.log("test5");
+        updateChart(["#0097a7", "rgba(43,45,66,0.06)", "rgba(43,45,66,0.06)", "rgba(43,45,66,0.06)"])
+      };
+
+      if (current === "card-7")
+      {
+        console.log("test5");
+        updateChart(["#9c27b0", "#2196f3", "#ffb300", "rgba(43,45,66,0.06)"])
+      }
+
+      if (current === "card-8")
+      {
+        console.log("test5");
+        updateChart(["#e53935", "#1976d2", "rgba(43,45,66,0.06)", "rgba(43,45,66,0.06)"])
+      }
+
+      if (current === "card-9")
+      {
+        console.log("test5");
+        updateChart(["#ffb300", "#43a047", "rgba(43,45,66,0.06)", "rgba(43,45,66,0.06)"])
+      }
+
+      if (current === "card-10")
+      {
+        console.log("test5");
+        updateChart(["#1313A1", "#ffb300", "#ff1744", "rgba(43,45,66,0.06)"])
+      }
+
+
       var filepath = "./images/";
       filepath = filepath.concat(current, "-image.svg");
       $("#viz").attr("src", filepath);
@@ -283,7 +324,7 @@ var myLineChart = new Chart(ctx, startingData);
         myLineChart.data.datasets[i] = {
       data: [randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()],
       fill: false,
-      borderColor: colors[i], borderWidth: 3}
+      borderColor: colors[i], borderWidth: 2}
       }      
       
       myLineChart.update();     
