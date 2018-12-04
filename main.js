@@ -190,10 +190,10 @@ var myLineChart = new Chart(ctx, startingData);
 
 
   // old code  
-    $( document ).click(function() {
-      setTimeout(changePhoto, 100);
-      console.log("click!");
-    });
+    // $( document ).click(function() {
+    //   setTimeout(changePhoto, 200);
+    //   console.log("click!");
+    // });
 
     // $(document ).on("tap",function(){
     //   changePhoto();
@@ -220,19 +220,19 @@ var myLineChart = new Chart(ctx, startingData);
 
     function handleGesture() {
         if (touchendX <= touchstartX) {
-          setTimeout(changePhoto, 100);
+          setTimeout(changePhoto, 200);
           console.log('Swiped left');
         } else {
             if (touchendX >= touchstartX) {
-            setTimeout(changePhoto, 100);
+            setTimeout(changePhoto, 200);
             console.log('Swiped right');
           } else {
             if (touchendY <= touchstartY) {
-              setTimeout(changePhoto, 100);
+              setTimeout(changePhoto, 200);
               console.log('Swiped up');
             } else {
               if (touchendY >= touchstartY) {
-                setTimeout(changePhoto, 100);
+                setTimeout(changePhoto, 200);
                 console.log('Swiped down');
               }
             }
