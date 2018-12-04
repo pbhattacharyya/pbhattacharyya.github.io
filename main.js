@@ -256,7 +256,7 @@ var myLineChart = new Chart(ctx, startingData);
       if (current === "card-2")
       {
         console.log("test2");
-        updateChart(["#ffb300", "#1313A1", "#F0712E", "#25ABDB"])
+        updateChart(["#ffb300", "#1313A1", "#F0712E", "#ab47bc"])
       };
       if (current === "card-3")
       {
